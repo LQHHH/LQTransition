@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D30A6060216D938000DD3149 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D30A605F216D938000DD3149 /* AppDelegate.m */; };
+		D30A6063216D938000DD3149 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D30A6062216D938000DD3149 /* ViewController.m */; };
+		D30A6068216D938100DD3149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D30A6067216D938100DD3149 /* Assets.xcassets */; };
+		D30A606E216D938100DD3149 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D30A606D216D938100DD3149 /* main.m */; };
+		D30A607A216DA0EC00DD3149 /* LQTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D30A6079216DA0EC00DD3149 /* LQTransitionManager.m */; };
+		D30A607D216DA39000DD3149 /* PresentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D30A607C216DA39000DD3149 /* PresentVC.m */; };
+		D30A6080216DA3A500DD3149 /* DismissVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D30A607F216DA3A500DD3149 /* DismissVC.m */; };
+		D30A6082216DAC9300DD3149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30A6081216DAC9300DD3149 /* LaunchScreen.storyboard */; };
+		D30A6085216DD60300DD3149 /* LQGestureTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D30A6084216DD60300DD3149 /* LQGestureTransition.m */; };
+		D30C77DC2176D6D6005AD35F /* CollectionViewMain.m in Sources */ = {isa = PBXBuildFile; fileRef = D30C77DB2176D6D6005AD35F /* CollectionViewMain.m */; };
+		D30C77DF2176DD5B005AD35F /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D30C77DE2176DD5B005AD35F /* PushViewController.m */; };
+		D30C77E22176DF4D005AD35F /* LQCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D30C77E12176DF4D005AD35F /* LQCollectionViewCell.m */; };
+		D30C77E42176DFE3005AD35F /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = D30C77E32176DFE3005AD35F /* 1.png */; };
+		D30C77E821772F68005AD35F /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = D30C77E621772F68005AD35F /* 3.png */; };
+		D30C77E921772F68005AD35F /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = D30C77E721772F68005AD35F /* 2.png */; };
+		D30C77EC21772FAA005AD35F /* CircleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D30C77EB21772FAA005AD35F /* CircleVC.m */; };
+		D30C77EF21772FC3005AD35F /* CircleEndVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D30C77EE21772FC3005AD35F /* CircleEndVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D30A605B216D938000DD3149 /* LQTransitionAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LQTransitionAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D30A605E216D938000DD3149 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D30A605F216D938000DD3149 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D30A6061216D938000DD3149 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D30A6062216D938000DD3149 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D30A6067216D938100DD3149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D30A606C216D938100DD3149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D30A606D216D938100DD3149 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D30A6076216D9AB400DD3149 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D30A6078216DA0EC00DD3149 /* LQTransitionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQTransitionManager.h; sourceTree = "<group>"; };
+		D30A6079216DA0EC00DD3149 /* LQTransitionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQTransitionManager.m; sourceTree = "<group>"; };
+		D30A607B216DA39000DD3149 /* PresentVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresentVC.h; sourceTree = "<group>"; };
+		D30A607C216DA39000DD3149 /* PresentVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresentVC.m; sourceTree = "<group>"; };
+		D30A607E216DA3A500DD3149 /* DismissVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DismissVC.h; sourceTree = "<group>"; };
+		D30A607F216DA3A500DD3149 /* DismissVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DismissVC.m; sourceTree = "<group>"; };
+		D30A6081216DAC9300DD3149 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D30A6083216DD60300DD3149 /* LQGestureTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQGestureTransition.h; sourceTree = "<group>"; };
+		D30A6084216DD60300DD3149 /* LQGestureTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQGestureTransition.m; sourceTree = "<group>"; };
+		D30C77DA2176D6D6005AD35F /* CollectionViewMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewMain.h; sourceTree = "<group>"; };
+		D30C77DB2176D6D6005AD35F /* CollectionViewMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewMain.m; sourceTree = "<group>"; };
+		D30C77DD2176DD5B005AD35F /* PushViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushViewController.h; sourceTree = "<group>"; };
+		D30C77DE2176DD5B005AD35F /* PushViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushViewController.m; sourceTree = "<group>"; };
+		D30C77E02176DF4D005AD35F /* LQCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQCollectionViewCell.h; sourceTree = "<group>"; };
+		D30C77E12176DF4D005AD35F /* LQCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQCollectionViewCell.m; sourceTree = "<group>"; };
+		D30C77E32176DFE3005AD35F /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		D30C77E621772F68005AD35F /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		D30C77E721772F68005AD35F /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		D30C77EA21772FAA005AD35F /* CircleVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleVC.h; sourceTree = "<group>"; };
+		D30C77EB21772FAA005AD35F /* CircleVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleVC.m; sourceTree = "<group>"; };
+		D30C77ED21772FC3005AD35F /* CircleEndVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleEndVC.h; sourceTree = "<group>"; };
+		D30C77EE21772FC3005AD35F /* CircleEndVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleEndVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D30A6058216D938000DD3149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D30A6052216D938000DD3149 = {
+			isa = PBXGroup;
+			children = (
+				D30A605D216D938000DD3149 /* LQTransitionAnimationDemo */,
+				D30A605C216D938000DD3149 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D30A605C216D938000DD3149 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D30A605B216D938000DD3149 /* LQTransitionAnimationDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D30A605D216D938000DD3149 /* LQTransitionAnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D30A6075216D942500DD3149 /* LQTransitionAnimation */,
+				D30A605E216D938000DD3149 /* AppDelegate.h */,
+				D30A605F216D938000DD3149 /* AppDelegate.m */,
+				D30A6061216D938000DD3149 /* ViewController.h */,
+				D30A6062216D938000DD3149 /* ViewController.m */,
+				D30A6077216D9F9100DD3149 /* PresentAndDismiss */,
+				D30C77D92176D680005AD35F /* CollectionViewCellPush */,
+				D30C77E5217713F1005AD35F /* LQCircleVC */,
+				D30A6067216D938100DD3149 /* Assets.xcassets */,
+				D30A606C216D938100DD3149 /* Info.plist */,
+				D30A606D216D938100DD3149 /* main.m */,
+				D30A6081216DAC9300DD3149 /* LaunchScreen.storyboard */,
+				D30A6076216D9AB400DD3149 /* PrefixHeader.pch */,
+			);
+			path = LQTransitionAnimationDemo;
+			sourceTree = "<group>";
+		};
+		D30A6075216D942500DD3149 /* LQTransitionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				D30A6078216DA0EC00DD3149 /* LQTransitionManager.h */,
+				D30A6079216DA0EC00DD3149 /* LQTransitionManager.m */,
+				D30A6083216DD60300DD3149 /* LQGestureTransition.h */,
+				D30A6084216DD60300DD3149 /* LQGestureTransition.m */,
+			);
+			name = LQTransitionAnimation;
+			path = ../../LQTransitionAnimation;
+			sourceTree = "<group>";
+		};
+		D30A6077216D9F9100DD3149 /* PresentAndDismiss */ = {
+			isa = PBXGroup;
+			children = (
+				D30A607B216DA39000DD3149 /* PresentVC.h */,
+				D30A607C216DA39000DD3149 /* PresentVC.m */,
+				D30A607E216DA3A500DD3149 /* DismissVC.h */,
+				D30A607F216DA3A500DD3149 /* DismissVC.m */,
+			);
+			path = PresentAndDismiss;
+			sourceTree = "<group>";
+		};
+		D30C77D92176D680005AD35F /* CollectionViewCellPush */ = {
+			isa = PBXGroup;
+			children = (
+				D30C77E32176DFE3005AD35F /* 1.png */,
+				D30C77DA2176D6D6005AD35F /* CollectionViewMain.h */,
+				D30C77DB2176D6D6005AD35F /* CollectionViewMain.m */,
+				D30C77DD2176DD5B005AD35F /* PushViewController.h */,
+				D30C77DE2176DD5B005AD35F /* PushViewController.m */,
+				D30C77E02176DF4D005AD35F /* LQCollectionViewCell.h */,
+				D30C77E12176DF4D005AD35F /* LQCollectionViewCell.m */,
+			);
+			path = CollectionViewCellPush;
+			sourceTree = "<group>";
+		};
+		D30C77E5217713F1005AD35F /* LQCircleVC */ = {
+			isa = PBXGroup;
+			children = (
+				D30C77E721772F68005AD35F /* 2.png */,
+				D30C77E621772F68005AD35F /* 3.png */,
+				D30C77EA21772FAA005AD35F /* CircleVC.h */,
+				D30C77EB21772FAA005AD35F /* CircleVC.m */,
+				D30C77ED21772FC3005AD35F /* CircleEndVC.h */,
+				D30C77EE21772FC3005AD35F /* CircleEndVC.m */,
+			);
+			path = LQCircleVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D30A605A216D938000DD3149 /* LQTransitionAnimationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D30A6071216D938100DD3149 /* Build configuration list for PBXNativeTarget "LQTransitionAnimationDemo" */;
+			buildPhases = (
+				D30A6057216D938000DD3149 /* Sources */,
+				D30A6058216D938000DD3149 /* Frameworks */,
+				D30A6059216D938000DD3149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LQTransitionAnimationDemo;
+			productName = LQTransitionAnimationDemo;
+			productReference = D30A605B216D938000DD3149 /* LQTransitionAnimationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D30A6053216D938000DD3149 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = hhh;
+				TargetAttributes = {
+					D30A605A216D938000DD3149 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = D30A6056216D938000DD3149 /* Build configuration list for PBXProject "LQTransitionAnimationDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D30A6052216D938000DD3149;
+			productRefGroup = D30A605C216D938000DD3149 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D30A605A216D938000DD3149 /* LQTransitionAnimationDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D30A6059216D938000DD3149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D30A6068216D938100DD3149 /* Assets.xcassets in Resources */,
+				D30A6082216DAC9300DD3149 /* LaunchScreen.storyboard in Resources */,
+				D30C77E921772F68005AD35F /* 2.png in Resources */,
+				D30C77E42176DFE3005AD35F /* 1.png in Resources */,
+				D30C77E821772F68005AD35F /* 3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D30A6057216D938000DD3149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D30C77EC21772FAA005AD35F /* CircleVC.m in Sources */,
+				D30A6063216D938000DD3149 /* ViewController.m in Sources */,
+				D30A606E216D938100DD3149 /* main.m in Sources */,
+				D30C77DF2176DD5B005AD35F /* PushViewController.m in Sources */,
+				D30A6060216D938000DD3149 /* AppDelegate.m in Sources */,
+				D30C77DC2176D6D6005AD35F /* CollectionViewMain.m in Sources */,
+				D30C77EF21772FC3005AD35F /* CircleEndVC.m in Sources */,
+				D30C77E22176DF4D005AD35F /* LQCollectionViewCell.m in Sources */,
+				D30A607D216DA39000DD3149 /* PresentVC.m in Sources */,
+				D30A6085216DD60300DD3149 /* LQGestureTransition.m in Sources */,
+				D30A607A216DA0EC00DD3149 /* LQTransitionManager.m in Sources */,
+				D30A6080216DA3A500DD3149 /* DismissVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D30A606F216D938100DD3149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D30A6070216D938100DD3149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D30A6072216D938100DD3149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XNAG35B36V;
+				GCC_PREFIX_HEADER = "${SRCROOT}/LQTransitionAnimationDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = LQTransitionAnimationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hhh.LQTransitionAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D30A6073216D938100DD3149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XNAG35B36V;
+				GCC_PREFIX_HEADER = "${SRCROOT}/LQTransitionAnimationDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = LQTransitionAnimationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hhh.LQTransitionAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D30A6056216D938000DD3149 /* Build configuration list for PBXProject "LQTransitionAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D30A606F216D938100DD3149 /* Debug */,
+				D30A6070216D938100DD3149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D30A6071216D938100DD3149 /* Build configuration list for PBXNativeTarget "LQTransitionAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D30A6072216D938100DD3149 /* Debug */,
+				D30A6073216D938100DD3149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D30A6053216D938000DD3149 /* Project object */;
+}
