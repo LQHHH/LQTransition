@@ -24,7 +24,7 @@
     self.window.rootViewController = nav;
     
     [self.window makeKeyAndVisible];
-    
+    NSLog(@"%@",@"share");
     return YES;
 }
 
