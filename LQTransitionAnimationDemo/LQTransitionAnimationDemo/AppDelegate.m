@@ -24,7 +24,7 @@
     self.window.rootViewController = nav;
     
     [self.window makeKeyAndVisible];
-    
+    NSString *str = @"11";
     return YES;
 }
 
